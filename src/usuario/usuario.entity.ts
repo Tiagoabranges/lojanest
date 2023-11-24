@@ -4,10 +4,12 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
   DeleteDateColumn,
+  PrimaryGeneratedColumn,
 } from 'typeorm';
 
 @Entity({ name: 'usuarios' })
 export class UsuarioEntity {
+  @PrimaryGeneratedColumn('uuid')
   id: string;
 
   @Column({ name: 'nome', length: 100, nullable: false })
