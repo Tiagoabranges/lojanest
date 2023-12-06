@@ -1,12 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
-
-
-// class ImagemProduto {
-//url: string;
-// descricao: string;
-//}
-
 @Entity({ name: 'produtos' })
 export class ProdutoEntity {
   @PrimaryGeneratedColumn('uuid')
