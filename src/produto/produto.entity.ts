@@ -1,9 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
-// class CaracteristicaProduto {
-//nome: string;
-// descricao: string;
-//}
+
 
 // class ImagemProduto {
 //url: string;
